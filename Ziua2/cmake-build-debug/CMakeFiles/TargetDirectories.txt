@@ -1,0 +1,3 @@
+/home/cshark/Documents/git/ScoalaDeVara-PCR/Ziua2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cshark/Documents/git/ScoalaDeVara-PCR/Ziua2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cshark/Documents/git/ScoalaDeVara-PCR/Ziua2/cmake-build-debug/CMakeFiles/Ziua2.dir

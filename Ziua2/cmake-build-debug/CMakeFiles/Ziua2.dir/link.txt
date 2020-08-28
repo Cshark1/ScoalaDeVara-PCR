@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Ziua2.dir/main.cpp.o  -o Ziua2 
