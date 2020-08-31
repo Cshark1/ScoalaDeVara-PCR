@@ -1,25 +1,25 @@
 import pygame
 
 def number_to_bool_array(number):
-    if number == 1:
+    if number == "1":
         return [False, False, False, True, True]
-    elif number == 2:
+    elif number == "2":
         return [False, False, True, False, True]
-    elif number == 3:
+    elif number == "3":
         return [False, False, True, True, False]
-    elif number == 4:
+    elif number == "4":
         return [False, True, False, False, True]
-    elif number == 5:
+    elif number == "5":
         return [False, True, False, True, False]
-    elif number == 6:
+    elif number == "6":
         return [False, True, True, False, False]
-    elif number == 7:
+    elif number == "7":
         return [True, False, False, False, True]
-    elif number == 8:
+    elif number == "8":
         return [True, False, False, True, False]
-    elif number == 9:
+    elif number == "9":
         return [True, False, True, False, False]
-    elif number == 0:
+    elif number == "0":
         return [True, True, False, False, False]
     else:
         raise Exception("'" + number + "'", "is not a number!")
@@ -30,7 +30,8 @@ bool_array = []
 
 def get_array(input_):
     for k in input_:
-        bool_array.append(number_to_bool_array(int(k)))
+        bool_array.append(number_to_bool_array(k))
+
 
 
 to_encode = input("Enter postal code: ")
