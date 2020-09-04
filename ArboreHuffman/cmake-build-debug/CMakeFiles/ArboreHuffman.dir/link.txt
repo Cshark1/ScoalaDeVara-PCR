@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ArboreHuffman.dir/main.cpp.o  -o ArboreHuffman 
